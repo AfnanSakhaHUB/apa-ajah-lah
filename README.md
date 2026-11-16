@@ -1,0 +1,2 @@
+# apa-ajah-lah
+jamak
