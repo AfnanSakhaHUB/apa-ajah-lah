@@ -29,7 +29,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 local CONFIG = {
 	-- Deteksi tornado
 	TORNADO_TAG = "Tornado",                   -- CollectionService tag (opsional)
-	TORNADO_NAMES = { "tornado", "twister" },  -- nama Model/Part (huruf kecil semua)
+	TORNADO_NAMES = { "tornado", "Tornado" },  -- nama Model/Part (huruf kecil semua)
 	TOUCHDOWN_ATTRIBUTE = "TouchedDown",       -- Attribute boolean pada tornado (opsional)
 
 	-- Satuan & arah
