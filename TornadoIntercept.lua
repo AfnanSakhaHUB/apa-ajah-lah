@@ -14,7 +14,7 @@ local pgui = lp:WaitForChild("PlayerGui")
 
 local C = {
 	MPH = 1.5966,          -- 1 mph = 1.5966 stud/s (1 stud = 0.28 m). Sesuaikan jika game kamu beda skala
-	LeadSec = 120,         -- mobil harus tiba 2 menit sebelum tornado
+	LeadSec = 60,         -- mobil harus tiba 2 menit sebelum tornado
 	NodeSpacing = 14, LinkDist = 26, MinRoadLen = 6,
 	MaxNodeParts = 15000,  -- batas part titik jalan
 	DebugNodes = false,    -- true = titik jalan terlihat
