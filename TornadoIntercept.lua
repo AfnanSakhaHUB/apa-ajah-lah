@@ -47,7 +47,7 @@ local C = {
 
 -- RINTANGAN (trek membelok menghindar; mobil TIDAK berhenti)
 ObstDetect = true,     -- trek dibuat membelok menghindari benda solid
-ObstMinH = 5,          -- hanya benda solid setinggi > 5 stud (dari permukaan jalan) yang dihindari
+ObstMinH = 1,          -- hanya benda solid setinggi > 5 stud (dari permukaan jalan) yang dihindari
 ObstLook = 12000,      -- seluruh rute dipindai sekaligus saat trek dibuat
 ObstClear = 1.2,       -- tinggi dasar kotak pindai dari permukaan jalan (abaikan gundukan rendah)
 ObstHeight = 3.2, ObstSide = 1.6, ObstMinSize = 1.2,   -- ObstSide = ruang kosong di kiri/kanan mobil (stud)
